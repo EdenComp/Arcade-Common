@@ -10,7 +10,7 @@
 
 #include "Input.hpp"
 
-namespace common {
+namespace arcade::common {
     class IGameModule {
         virtual ~IGameModule() = default;
 

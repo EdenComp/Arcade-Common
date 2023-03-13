@@ -10,7 +10,7 @@
 
 #include "Elements.hpp"
 
-namespace common {
+namespace arcade::common {
     class IDisplayModule {
         virtual ~IDisplayModule() = default;
 

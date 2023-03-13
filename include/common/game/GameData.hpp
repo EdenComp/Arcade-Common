@@ -11,7 +11,7 @@
 #include "Elements.hpp"
 #include <vector>
 
-namespace common {
+namespace arcade::common {
     struct GameData {
         std::vector<Sprite> sprites;
         std::vector<Text> texts;

@@ -8,7 +8,7 @@
 #ifndef INPUT_HPP_
 #define INPUT_HPP_
 
-namespace common {
+namespace arcade::common {
     enum class Input {
         UP,
         DOWN,
