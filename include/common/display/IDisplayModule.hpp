@@ -8,7 +8,7 @@
 #ifndef IDISPLAYMODULE_HPP_
 #define IDISPLAYMODULE_HPP_
 
-#include "common/Elements.hpp"
+#include "Elements.hpp"
 
 namespace common {
     class IDisplayModule {

@@ -8,7 +8,7 @@
 #ifndef IGAMEMODULE_HPP_
 #define IGAMEMODULE_HPP_
 
-#include "common/Input.hpp"
+#include "Input.hpp"
 
 namespace common {
     class IGameModule {

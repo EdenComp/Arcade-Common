@@ -8,7 +8,7 @@
 #ifndef GAMEDATA_HPP_
 #define GAMEDATA_HPP_
 
-#include "common/Elements.hpp"
+#include "Elements.hpp"
 #include <vector>
 
 namespace common {
