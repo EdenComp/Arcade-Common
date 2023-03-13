@@ -10,14 +10,24 @@
 
 namespace arcade::common {
     enum class Input {
+        // Joystick / Arrows
         UP,
         DOWN,
         RIGHT,
         LEFT,
+
+        // Buttons
         ACTION_1,
         ACTION_2,
         SPECIAL_1,
         SPECIAL_2,
+
+        // Special inputs
+        NEXT_LIBRARY,
+        NEXT_GAME,
+        RESTART,
+        BACK_MENU,
+        EXIT,
     };
 }
 
