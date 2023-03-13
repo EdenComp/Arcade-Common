@@ -5,8 +5,8 @@
 ** IGameModule.hpp
 */
 
-#ifndef IGAMEMODULE_HPP
-#define IGAMEMODULE_HPP
+#ifndef IGAMEMODULE_HPP_
+#define IGAMEMODULE_HPP_
 
 #include "common/Input.hpp"
 

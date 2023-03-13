@@ -5,8 +5,8 @@
 ** IDisplayModule.hpp
 */
 
-#ifndef IDISPLAYMODULE_HPP
-#define IDISPLAYMODULE_HPP
+#ifndef IDISPLAYMODULE_HPP_
+#define IDISPLAYMODULE_HPP_
 
 #include "common/Elements.hpp"
 
