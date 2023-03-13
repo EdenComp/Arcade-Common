@@ -17,6 +17,7 @@ namespace arcade::common {
         virtual void openWindow() = 0;
         virtual void closeWindow() = 0;
         virtual void clearWindow() = 0;
+        virtual void refreshWindow() = 0;
 
         virtual void drawSprite(const Sprite &sprite) = 0;
         virtual void drawText(const Text &text) = 0;
