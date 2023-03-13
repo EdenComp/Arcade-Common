@@ -19,7 +19,6 @@ namespace arcade::common {
     struct Sprite {
         Position position;
         std::string filepath;
-        char character;
     };
 
     struct Text {
