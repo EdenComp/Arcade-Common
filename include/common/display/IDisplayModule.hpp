@@ -18,8 +18,8 @@ namespace arcade::common {
         virtual void closeWindow() = 0;
         virtual void clearWindow() = 0;
 
-        virtual void drawSprite(const Sprite &sprite);
-        virtual void drawText(const Text &text);
+        virtual void drawSprite(const Sprite &sprite) = 0;
+        virtual void drawText(const Text &text) = 0;
     };
 }
 
