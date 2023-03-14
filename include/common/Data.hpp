@@ -5,14 +5,14 @@
 ** GameData.hpp
 */
 
-#ifndef GAMEDATA_HPP_
-#define GAMEDATA_HPP_
+#ifndef DATA_HPP_
+#define DATA_HPP_
 
 #include "Elements.hpp"
 #include <vector>
 
 namespace arcade::common {
-    struct GameData {
+    struct Data {
         std::vector<Sprite> sprites;
         std::vector<Text> texts;
         std::size_t score;

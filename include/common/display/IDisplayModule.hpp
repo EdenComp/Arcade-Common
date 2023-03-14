@@ -8,18 +8,14 @@
 #ifndef IDISPLAYMODULE_HPP_
 #define IDISPLAYMODULE_HPP_
 
-#include "Elements.hpp"
+#include "Data.hpp"
 
 namespace arcade::common {
     class IDisplayModule {
-        virtual ~IDisplayModule() = default;
+        public:
+            virtual ~IDisplayModule() = default;
 
-        virtual void openWindow() = 0;
-        virtual void closeWindow() = 0;
-        virtual void clearWindow() = 0;
-
-        virtual void drawSprite(const Sprite &sprite) = 0;
-        virtual void drawText(const Text &text) = 0;
+            virtual void display(const Data &data) = 0;
     };
 }
 

@@ -8,14 +8,16 @@
 #ifndef IGAMEMODULE_HPP_
 #define IGAMEMODULE_HPP_
 
+#include "Data.hpp"
 #include "Input.hpp"
 
 namespace arcade::common {
     class IGameModule {
-        virtual ~IGameModule() = default;
+        public:
+            virtual ~IGameModule() = default;
 
-        virtual void handleInput(common::Input in) = 0;
-        virtual void tick(int tick) = 0;
+            virtual void &handleInput(Input in) = 0;
+            virtual Data &tick(int tick) = 0;
     };
 }
 
