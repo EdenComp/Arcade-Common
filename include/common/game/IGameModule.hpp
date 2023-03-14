@@ -13,10 +13,11 @@
 
 namespace arcade::common {
     class IGameModule {
+        public:
             virtual ~IGameModule() = default;
 
-            virtual Data &handleInput(common::Input in) = 0;
-            virtual void tick(int tick) = 0;
+            virtual void &handleInput(Input in) = 0;
+            virtual Data &tick(int tick) = 0;
     };
 }
 
