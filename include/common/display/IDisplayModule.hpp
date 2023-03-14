@@ -15,7 +15,7 @@ namespace arcade::common {
         public:
             virtual ~IDisplayModule() = default;
 
-            virtual void draw(const Data &data) = 0;
+            virtual void display(const Data &data) = 0;
     };
 }
 
