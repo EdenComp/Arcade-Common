@@ -12,11 +12,22 @@
 #include <vector>
 
 namespace arcade::common {
-    struct GameData {
-        std::vector<Sprite> sprites;
-        std::vector<Text> texts;
+    struct Data {
+        std::vector <Sprite> sprites;
+        std::vector <Text> texts;
         std::size_t score;
         std::size_t seconds;
+    };
+
+    enum class EndEvent {
+        NONE,
+        MENU,
+        EXIT
+    };
+
+    class GameData : public Data {
+        public:
+            EndEvent endEvent;
     };
 }
 

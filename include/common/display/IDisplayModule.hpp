@@ -8,7 +8,7 @@
 #ifndef IDISPLAYMODULE_HPP_
 #define IDISPLAYMODULE_HPP_
 
-#include "GameData.hpp"
+#include "Data.hpp"
 #include "Elements.hpp"
 
 namespace arcade::common {
