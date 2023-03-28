@@ -15,7 +15,8 @@ namespace arcade::common {
         PLAYER,
         BODY,
         WALL,
-        BONUS,
+        BONUS_A,
+        BONUS_B,
         ENEMY,
     };
 
