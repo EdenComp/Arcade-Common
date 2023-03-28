@@ -19,6 +19,10 @@ namespace arcade::common {
         ENEMY,
     };
 
+    enum class SoundType {
+
+    };
+
     struct Position {
         std::size_t x;
         std::size_t y;
@@ -27,6 +31,11 @@ namespace arcade::common {
     struct Sprite {
         Position position;
         SpriteType type;
+    };
+
+    struct Sound {
+        std::size_t volume;
+        SoundType type;
     };
 
     struct Text {

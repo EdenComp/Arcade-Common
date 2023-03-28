@@ -15,6 +15,7 @@ namespace arcade::common {
     struct Data {
         std::vector<Sprite> sprites;
         std::vector<Text> texts;
+        std::vector<Sound> sounds;
         std::size_t score;
         std::size_t seconds;
     };
