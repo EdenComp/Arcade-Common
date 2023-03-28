@@ -11,6 +11,14 @@
 #include <string>
 
 namespace arcade::common {
+    enum class SpriteType {
+        PLAYER,
+        BODY,
+        WALL,
+        BONUS,
+        ENEMY,
+    };
+
     struct Position {
         std::size_t x;
         std::size_t y;
@@ -18,7 +26,7 @@ namespace arcade::common {
 
     struct Sprite {
         Position position;
-        std::string filepath;
+        SpriteType type;
     };
 
     struct Text {
