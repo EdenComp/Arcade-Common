@@ -11,6 +11,7 @@
 #include <optional>
 #include "Data.hpp"
 #include "Elements.hpp"
+#include "Input.hpp"
 
 namespace arcade::common {
     class IDisplayModule {
