@@ -18,7 +18,6 @@ namespace arcade::common {
 
             virtual void handleInput(Input in) = 0;
             virtual Data &tick() = 0;
-            virtual void reset() = 0;
     };
 }
 
