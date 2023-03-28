@@ -11,6 +11,19 @@
 #include <string>
 
 namespace arcade::common {
+    enum class SpriteType {
+        PLAYER,
+        BODY,
+        WALL,
+        BONUS_A,
+        BONUS_B,
+        ENEMY,
+    };
+
+    enum class SoundType {
+
+    };
+
     struct Position {
         std::size_t x;
         std::size_t y;
@@ -18,7 +31,12 @@ namespace arcade::common {
 
     struct Sprite {
         Position position;
-        std::string filepath;
+        SpriteType type;
+    };
+
+    struct Sound {
+        std::size_t volume;
+        SoundType type;
     };
 
     struct Text {
