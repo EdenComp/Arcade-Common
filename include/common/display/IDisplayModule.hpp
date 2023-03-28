@@ -8,6 +8,7 @@
 #ifndef IDISPLAYMODULE_HPP_
 #define IDISPLAYMODULE_HPP_
 
+#include <optional>
 #include "Data.hpp"
 
 namespace arcade::common {
@@ -16,7 +17,7 @@ namespace arcade::common {
             virtual ~IDisplayModule() = default;
 
             virtual void display(const Data &data) = 0;
-            virtual Input getInput() = 0;
+            virtual std::optional<Input> getInput() = 0;
     };
 }
 
