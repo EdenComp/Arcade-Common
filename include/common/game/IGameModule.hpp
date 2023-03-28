@@ -10,6 +10,7 @@
 
 #include "Data.hpp"
 #include "Input.hpp"
+#include "Elements.hpp"
 
 namespace arcade::common {
     class IGameModule {
@@ -17,7 +18,7 @@ namespace arcade::common {
             virtual ~IGameModule() = default;
 
             virtual void handleInput(Input in) = 0;
-            virtual Data &tick() = 0;
+            virtual Data &tick(const WindowDimensions &dimensions) = 0;
     };
 }
 

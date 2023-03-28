@@ -10,13 +10,14 @@
 
 #include <optional>
 #include "Data.hpp"
+#include "Elements.hpp"
 
 namespace arcade::common {
     class IDisplayModule {
         public:
             virtual ~IDisplayModule() = default;
 
-            virtual void display(const Data &data) = 0;
+            virtual void display(const Data &data, const WindowDimensions &dimensions) = 0;
             virtual std::optional<Input> getInput() = 0;
     };
 }
