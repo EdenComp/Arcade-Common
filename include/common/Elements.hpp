@@ -21,7 +21,8 @@ namespace arcade::common {
     };
 
     enum class SoundType {
-
+        LOOP,
+        EVENT,
     };
 
     struct Position {
