@@ -25,8 +25,8 @@ namespace arcade::common {
     };
 
     struct Position {
-        std::size_t x;
-        std::size_t y;
+        float x;
+        float y;
     };
 
     struct WindowDimensions {
