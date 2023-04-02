@@ -29,11 +29,6 @@ namespace arcade::common {
         float y;
     };
 
-    struct WindowDimensions {
-        std::size_t width;
-        std::size_t height;
-    };
-
     struct Sprite {
         Position position;
         SpriteType type;

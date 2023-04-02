@@ -18,7 +18,7 @@ namespace arcade::common {
             virtual ~IGameModule() = default;
 
             virtual void handleInput(Input in) = 0;
-            virtual Data &tick(const WindowDimensions &dimensions) = 0;
+            virtual Data &tick() = 0;
     };
 }
 
