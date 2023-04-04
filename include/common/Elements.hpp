@@ -25,8 +25,8 @@ namespace arcade::common {
     };
 
     struct Position {
-        float x;
-        float y;
+        size_t x;
+        size_t y;
     };
 
     struct Sprite {
