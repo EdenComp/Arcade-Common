@@ -18,7 +18,7 @@ namespace arcade::common {
         std::vector<Sound> sounds;
         std::size_t score;
         std::size_t seconds;
-        std::size_t mapWith;
+        std::size_t mapWidth;
         std::size_t mapHeight;
     };
 }
